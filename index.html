@@ -317,7 +317,7 @@
         </div>
 
       </main>
-      <footer class="container">
+      <footer class="container d-flex flex-column">
         <ul class="row" id="footli">
           <li class="col-6 col-md-4"><a href="#"><div class="fab"></div>Fabrication  <br>Francaise</a></li>
           <li class="col-6 col-md-"><a href="#"><div class="paiement"></div>paiement <br>sécurise</a></li>
@@ -326,9 +326,12 @@
           <li class="hidden-sm-down col-md-"><div class="facebook"></div>Facebook, <br>Plus de 20 000 pouces en l'air</a></li>
           <li class="hidden-sm-down col-md-"><a href="#"><div class="twitter"></div>Twitter, <br>4410 Followers</a></li>
         </ul>
-        <div><p>Webdesign et Développement par Axome - Motorisé sous Prestashop </p></div>
-        <div><p>Newsletter</p></div>
-        <div><a href="#">Nos passionnantes Conditions Générales de Vente</a></div>
+        <div id="webdesign"><p>Webdesign et Développement par Axome - Motorisé sous Prestashop </p></div>
+        <div id="newsletter" class="d-flex flex-column justify-content-center"><p>Newsletter</p> <form class="form-inline my-2 my-lg-0 justify-content-center">
+      <input class="inputNew form-control" type="text" placeholder="Votre E-mail">
+      <button class="button_mini btn btn-default" type="submit">OK</button>
+    </form></div>
+        <div id="cgv"><a href="#">Nos passionnantes Conditions Générales de Vente</a></div>
       </footer>
 
 
