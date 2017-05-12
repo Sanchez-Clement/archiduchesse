@@ -1,0 +1,68 @@
+li {
+  list-style: none;
+  color: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+font-family: 'quadranta';
+src: url('quadranta.eot?') format('eot'),
+
+}
+
+/****************************************************header************************************************/
+
+header {
+  height: 50px;
+
+  box-shadow: 2px 0 2px black
+}
+
+#navbas button img{
+  width: 20px;
+
+}
+
+#navbas button {
+  border: none;
+}
+#navbas .logo {
+  width: 200px;
+
+
+}
+#navbas .logo, #navbas .panier{
+  position: relative;
+  bottom:15px;
+}
+
+#navbas .panier {
+  width: 30px;
+}
+
+#navbas a .badge{
+  position: relative;
+  bottom: 30px;
+  border-radius:  50%;
+  background-color: #B35860;
+}
+
+#navbarSupportedContent {
+  position: absolute;
+  left: 0;
+  height : 300px;
+  top : 60px;
+  background-image: url(../img/background/bg.png);
+  width: 80%;
+  max-width: 450px;
+  height: 100vh;
+  padding: 15px;
+}
+
+#navbarSupportedContent a {
+  font-size: 12px;
+}
