@@ -19,31 +19,34 @@
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
-      <header>
+      <header class="d-lg-flex flex-lg-row flex-lg-wrap justify-content-lg-around align-items-lg-center" >
         <a href="#" class="hidden-md-down"><img src="img/logo/index.svg" alt=""></a>
         <nav class="navpc hidden-md-down">
-          <ul>
-            <li><a href="">Shop</a></li>
-            <li><a href="">Blog</a></li>
-            <li><a href="">Info</a></li>
-            <li><a href="">Contact</a></li>
+          <ul class="nav nav-pills">
+            <li class="nav-item"><a class="nav-link active" href="">Shop</a></li>
+            <li class="nav-item"><a class="nav-link" href="">Blog</a></li>
+            <li class="nav-item"><a class="nav-link" href="">Info</a></li>
+            <li class="nav-item"><a class="nav-link" href="">Contact</a></li>
           </ul>
         </nav>
-        <div class="hidden-md-down">
+
+
+        <div class="hidden-md-down d-lg-flex flex-lg-row flex-lg-wrap justify-content-lg-between" id="papier">
           <select>
             <option value="">FR</option>
             <option value="">EN</option>
             <option value="">US</option>
           </select>
-          <p>Bienvenue,<a href="#">connexion</a></p>
-          <p><span>0</span> produit <a href="#">dans mon panier</a></p>
-          <p>Frais de port offerts dans 42 €</p>
-          <div class="">
+          <p class="bienvenue">Bienvenue,<a href="#">connexion</a></p>
+          <p class="fluo"><span>0</span> produit <a href="#">dans mon panier</a></p>
+          <p class="port">Frais de port offerts dans 42 €</p>
+          <div class="papierdechire">
 
 
           </div>
 
         </div>
+
         <!-- <nav class="navphone hidden-lg-up">
           <ul>
             <li><a href="#"><img src="img/logo/menu.svg" alt=""></a></li>
@@ -98,14 +101,14 @@
 
   </div>
 </nav>
-        <nav class="navchaussette hidden-md-down">
-          <ul>
-            <li><a href=""><img src="img/nav-bas/bouclette.svg" alt=""><p>Bouclette <br><span>Douces & chaudes</span></p></a></li>
-            <li><a href=""><img src="img/nav-bas/collants.svg" alt=""><p>Bouclette <br><span>Douces & chaudes</span></p></a></li>
-            <li><a href=""><img src="img/nav-bas/deluxe.svg" alt=""><p>Bouclette <br><span>Douces & chaudes</span></p></a></li>
-            <li><a href=""><img src="img/nav-bas/deville.svg" alt=""><p>Bouclette <br><span>Douces & chaudes</span></p></a></li>
-            <li><a href=""><img src="img/nav-bas/fantaisie.svg" alt=""><p>Bouclette <br><span>Douces & chaudes</span></p></a></li>
-            <li><a href=""><img src="img/nav-bas/soquettes.svg" alt=""><p>Bouclette <br><span>Douces & chaudes</span></p></a></li>
+        <nav class="hidden-md-down " id="navchaussette">
+          <ul class="nav nav-tabs d-lg-flex flex-lg-row justify-content-lg-between">
+            <li class="nav-item"><a class="nav-link active" href=""><img src="img/nav-bas/bouclette.svg" alt=""><p>Bouclette <br><span>Douces & chaudes</span></p></a></li>
+            <li class="nav-item"><a class="nav-link" href=""><img src="img/nav-bas/collants.svg" alt=""><p>Bouclette <br><span>Douces & chaudes</span></p></a></li>
+            <li class="nav-item"><a class="nav-link" href=""><img src="img/nav-bas/deluxe.svg" alt=""><p>Bouclette <br><span>Douces & chaudes</span></p></a></li>
+            <li class="nav-item"><a class="nav-link" href=""><img src="img/nav-bas/deville.svg" alt=""><p>Bouclette <br><span>Douces & chaudes</span></p></a></li>
+            <li class="nav-item"><a class="nav-link" href=""><img src="img/nav-bas/fantaisie.svg" alt=""><p>Bouclette <br><span>Douces & chaudes</span></p></a></li>
+            <li class="nav-item"><a class="nav-link" href=""><img src="img/nav-bas/soquettes.svg" alt=""><p>Bouclette <br><span>Douces & chaudes</span></p></a></li>
           </ul>
         </nav>
       </header>
@@ -144,7 +147,7 @@
           </ul>
           <div class="gallerie row">
 
-        <figure class="col-6 col-md-4">
+        <figure class="col-6 col-md-4 col-lg-3">
           <h4>6.00 €</h4>
           <a href="#">
             <img src="img/chaussettes/bleu-de-nimes.jpg" alt="chaussette">
@@ -155,7 +158,7 @@
             <li>36 <hr>41</li>
           </ul>
         </figure>
-        <div id="carouselExampleSlidesOnly" class="carousel slide hidden-sm-down col-md-8" data-ride="carousel">
+        <div id="carouselExampleSlidesOnly" class="carousel slide hidden-sm-down col-md-8 col-lg-6" data-ride="carousel">
   <div class="carousel-inner" role="listbox">
     <div class="carousel-item active">
       <img class="d-block img-fluid" src="img/carousel/16.jpg" alt="First slide">
@@ -171,7 +174,7 @@
 
 
 
-        <figure class="col-6 col-md-4">
+        <figure class="col-6 col-md-4 col-lg-3">
           <h4>6.00 €</h4>
           <a href="#">
             <img src="img/chaussettes/bleu-gitanes.jpg" alt="chaussette">
@@ -182,7 +185,7 @@
             <li>36 <hr>41</li>
           </ul>
         </figure>
-        <figure class="col-6 col-md-4">
+        <figure class="col-6 col-md-4 col-lg-3">
           <h4>6.00 €</h4>
           <a href="#">
             <img src="img/chaussettes/bleu-petit-garcon.jpg" alt="chaussette">
@@ -193,7 +196,7 @@
             <li>36 <hr>41</li>
           </ul>
         </figure>
-        <figure class="col-6 col-md-4">
+        <figure class="col-6 col-md-4 col-lg-3">
           <h4>6.00 €</h4>
           <a href="#">
             <img src="img/chaussettes/bleu-tout-sauf-marine.jpg" alt="chaussette">
@@ -204,7 +207,7 @@
             <li>36 <hr>41</li>
           </ul>
         </figure>
-        <figure class="col-6 col-md-4">
+        <figure class="col-6 col-md-4 col-lg-3">
           <h4>6.00 €</h4>
           <a href="#">
             <img src="img/chaussettes/bleu-turquoise.jpg" alt="chaussette">
@@ -215,7 +218,7 @@
             <li>36 <hr>41</li>
           </ul>
         </figure>
-        <figure class="col-6 col-md-4">
+        <figure class="col-6 col-md-4 col-lg-3">
           <h4>6.00 €</h4>
           <a href="#">
             <img src="img/chaussettes/chaussettes-rose-framboise.jpg" alt="chaussette">
@@ -226,7 +229,7 @@
             <li>36 <hr>41</li>
           </ul>
         </figure>
-        <figure class="col-6 col-md-4">
+        <figure class="col-6 col-md-4 col-lg-3">
           <h4>6.00 €</h4>
           <a href="#">
             <img src="img/chaussettes/chaussettes-violet-violine.jpg" alt="chaussette">
@@ -237,7 +240,7 @@
             <li>36 <hr>41</li>
           </ul>
         </figure>
-        <figure class="col-6 col-md-4">
+        <figure class="col-6 col-md-4 col-lg-3">
           <h4>6.00 €</h4>
           <a href="#">
             <img src="img/chaussettes/gris-anthracite.jpg" alt="chaussette">
@@ -248,7 +251,7 @@
             <li>36 <hr>41</li>
           </ul>
         </figure>
-        <figure class="col-6 col-md-4">
+        <figure class="col-6 col-md-4 col-lg-3">
           <h4>6.00 €</h4>
           <a href="#">
             <img src="img/chaussettes/gris-cons-de-pigeon.jpg" alt="chaussette">
@@ -259,7 +262,7 @@
             <li>36 <hr>41</li>
           </ul>
         </figure>
-        <figure class="col-6 col-md-4">
+        <figure class="col-6 col-md-4 col-lg-3">
           <h4>6.00 €</h4>
           <a href="#">
             <img src="img/chaussettes/gris-cumulus.jpg" alt="chaussette">
@@ -270,7 +273,7 @@
             <li>36 <hr>41</li>
           </ul>
         </figure>
-        <figure class="col-6 col-md-4">
+        <figure class="col-6 col-md-4 col-lg-3">
           <h4>6.00 €</h4>
           <a href="#">
             <img src="img/chaussettes/juste-mauve.jpg" alt="chaussette">
@@ -281,7 +284,7 @@
             <li>36 <hr>41</li>
           </ul>
         </figure>
-        <figure class="col-6 col-md-4">
+        <figure class="col-6 col-md-4 col-lg-3">
           <h4>6.00 €</h4>
           <a href="#">
             <img src="img/chaussettes/mauve-mure.jpg" alt="chaussette">
@@ -292,7 +295,7 @@
             <li>36 <hr>41</li>
           </ul>
         </figure>
-        <figure class="col-6 col-md-4">
+        <figure class="col-6 col-md-4 col-lg-3">
           <h4>6.00 €</h4>
           <a href="#">
             <img src="img/chaussettes/noir-reglisse.jpg" alt="chaussette">
@@ -303,7 +306,7 @@
             <li>36 <hr>41</li>
           </ul>
         </figure>
-        <figure class="col-6 col-md-4">
+        <figure class="col-6 col-md-4 col-lg-3">
           <h4>6.00 €</h4>
           <a href="#">
             <img src="img/chaussettes/rose-petite-fille.jpg" alt="chaussette">

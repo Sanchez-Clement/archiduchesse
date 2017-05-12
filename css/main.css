@@ -361,3 +361,152 @@ footer {
 #footli li:hover .twitter {
   background-image: url(../img/pictos/picto_twitter2.png);
 }
+
+}
+
+/*******************************************fin footer*********************************/
+
+@media (min-width: 960px) {
+
+  header {
+    background-image: url(../img/background/bg.png);
+    height: auto;
+    box-shadow: none;
+
+  }
+
+
+  #navchaussette {
+    width: 90%;
+
+  }
+
+  #navchaussette img {
+    width: 30%;
+  }
+
+  #navchaussette li p{
+    font-style: italic;
+
+
+
+  }
+
+  #navchaussette li a {
+    display: flex;
+    width: 131%;
+    height: 60px;
+    color: #a2a2a2;
+background-color: rgba(0,0,0,0.05);
+  }
+
+  #navchaussette li .nav-link.active {
+    background-color: white;
+    color: #555;
+  }
+
+  #navchaussette li:hover a {
+    color: #555;
+  }
+
+  #navchaussette li span {
+    font-size: 9px;
+  }
+
+  #papier {
+    background-image: url(../img/background/ticket-repeat.png);
+    height: 190px;
+    margin-bottom: 30px;
+    background-size: cover;
+    width: 320px;
+
+    /*display: flex;
+    flex-flow: row wrap;*/
+  }
+
+  #papier p {
+    font-style: italic;
+font-size: 12px;
+text-align: center;
+
+  }
+color: #555555
+  #papier .port {
+    width: 90%;
+  }
+
+  #papier select {
+    background-color: #C47B81;
+    font-size: 12px;
+    width: 60px;
+    height: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+
+  #papier select option {
+    background-color: #E0B3B8;
+  }
+
+  .papierdechire {
+    background-image: url(../img/background/ticket-bas.png);
+    height: 20px;
+    width: 320px;
+    background-size: cover;
+
+  }
+
+  .bienvenue, .bienvenue a, .fluo , .fluo a{
+    color: #C47B81;
+  }
+
+  .bienvenue a, .fluo a {
+    text-decoration: underline;
+  }
+
+  .bienvenue {
+    margin-right : 20px;
+    margin-top: 20px;
+  }
+
+  #papier .fluo {
+    background-image: url(../img/background/stabilo.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin-left: 20px;
+    font-size: 15px;
+    font-style: normal;
+    height: 70px;
+
+  }
+
+  #papier .fluo span {
+    font-size: 50px;
+    font-weight: bold;
+    margin-right: 20px;
+    position: relative;
+  top : 20px;
+  }
+
+  .port {
+    width:90%;
+   }
+header .navpc .nav-link.active {
+  background-color: white;
+  color: #555555;
+}
+
+header .navpc .nav-link {
+  color :#a2a2a2;
+  margin-right: 10px;
+}
+
+
+
+header .navpc .nav-link:hover {
+  background-color: white;
+  color: #555555;
+
+}
+
+}
