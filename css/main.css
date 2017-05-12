@@ -188,7 +188,7 @@ footer {
 }
 
 
-.fab, .livraison, .paiement, .adresse {
+.fab, .livraison, .paiement, .adresse, .facebook, .twitter {
   height: 80px;
   width: 80px;
   background-size: 100%;
@@ -279,4 +279,85 @@ footer {
   font-style: italic;
   text-decoration: none;
   color: #555;
+}
+
+/**************************************************fin accueil*************************************/
+@media (min-width: 760px) {
+  /********************************************accueil************************************/
+  /***********************main*************************/
+  .home figure ul {
+    display: flex;
+    justify-content: center;
+  }
+
+  .home figure ul li {
+    background-color: #FDEB1D;
+    color: white;
+    font-size: 10px;
+    margin: 5px;
+    height: 30px;
+  }
+
+  .home figure ul li hr {
+    margin: 0;
+  }
+
+  /***********************fin main*************************/
+  /***********************footer*************************/
+footer {
+  align-items: center;
+}
+
+#cgv, #newsletter, #webdesign{
+  display: flex;
+
+  align-items: center;
+  /*width: 30%;*/
+  height: 100px;
+
+}
+
+  #footli li a {
+
+
+    flex-flow: row nowrap;
+    font-size: 14px;
+    font-style: italic;
+
+}
+
+#footli li {
+
+  display: flex;
+
+}
+
+#footli li a {
+  background-color: #F5F4F3;
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid rgba(0,0,0,0.08)
+
+}
+
+#footli .facebook {
+
+  background-image: url(../img/pictos/picto_facebook1.png);
+
+}
+
+#footli .twitter {
+
+  background-image: url(../img/pictos/picto_twitter1.png);
+
+}
+
+
+
+#footli li:hover .facebook {
+  background-image: url(../img/pictos/picto_facebook2.png);
+}
+
+#footli li:hover .twitter {
+  background-image: url(../img/pictos/picto_twitter2.png);
 }
