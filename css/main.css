@@ -156,3 +156,97 @@ font-size: 12px;
 .home figure ul {
   display: none;
 }
+
+/*****************************************************************footer*****************************/
+
+footer {
+
+  background-image: url(../img/background/bg2.png)
+}
+
+#footli li {
+  font-size: 10px;
+  line-height: 1.5;
+  text-align: center;
+
+}
+
+#footli li a {
+
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  margin-bottom: 30px;
+  color: #999
+
+
+}
+
+#footli li:hover a {
+  text-decoration: none;
+  color: #555
+}
+
+
+.fab, .livraison, .paiement, .adresse {
+  height: 80px;
+  width: 80px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+
+}
+#footli .livraison {
+  background-image: url(../img/pictos/picto_livraison3.png);
+  position: relative;
+  top:20px;
+
+}
+
+#footli .adresse {
+  background-image: url(../img/pictos/picto_adresse1.png);
+
+}
+
+#footli .fab {
+
+  background-image: url(../img/pictos/picto_fabrication1.png);
+
+}
+
+#footli .paiement {
+
+  background-image: url(../img/pictos/picto_paypal1.png);
+  position: relative;
+  top:20px;
+
+}
+
+
+
+#footli li:hover .fab {
+  background-image: url(../img/pictos/picto_fabrication.png);
+}
+
+#footli li:hover .livraison {
+  background-image: url(../img/pictos/picto_livraison2.png);
+
+
+}
+
+#footli li:hover .adresse {
+  background-image: url(../img/pictos/picto_adresse2.png);
+
+}
+
+#footli li:hover .paiement {
+
+  background-image: url(../img/pictos/picto_paypal2.png);
+
+}
+
+
+
+#footli img {
+  width: 60px;
+}
