@@ -65,10 +65,17 @@ header {
   max-width: 450px;
   height: 100vh;
   padding: 15px;
+  z-index: 10;
 }
 
 #navbarSupportedContent a {
   font-size: 12px;
+}
+
+#navphonefirst a {
+  color: black;
+  font-size: 20px;
+  margin-right: 10px;
 }
 /******************************************main********************************************/
 
@@ -508,5 +515,31 @@ header .navpc .nav-link:hover {
   color: #555555;
 
 }
+/**********************************fin du header***********************************/
 
+#carouselExampleSlidesOnly {
+padding-left: 70px;
+padding-top: 20px;
+}
+
+.home {
+  width: 90%;
+}
+.home .nav.nav-pills.taille {
+  position: fixed;
+  display: flex;
+  flex-flow: column nowrap;
+  left: 1222px;
+  top : 327px;
+  z-index: 10;
+
+
+
+}
+
+/*******************************************************footer**********************************/
+#footli li a {
+  font-size: 17px;
+  justify-content: space-around;
+}
 }
