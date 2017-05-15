@@ -21,8 +21,12 @@ src: url('Georgia.tff.eot?') format('tff'),
 
 header {
   height: 50px;
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background-color: white;
 
-  box-shadow: 2px 0 2px black
+  box-shadow: 2px 0 2px black;
 }
 
 #navbas button img{
@@ -168,7 +172,7 @@ font-size: 12px;
 
 footer {
 
-  background-image: url(../img/background/bg2.png)
+  background-image: url(../img/background/bg.png)
 }
 
 #footli li {
@@ -290,7 +294,38 @@ footer {
 
 /**************************************************fin accueil*************************************************************************/
 /**************************************************blog*************************************************************************/
-/******************************************header******************************************/
+/******************************************main******************************************/
+
+.articles h2 a:hover {
+  color: #70ACBF;
+  text-decoration: none;
+}
+
+.meta {
+  color: #BABBB7;
+  font-size: 12px;
+}
+
+.meta a {
+  color: #BABBB7;
+}
+
+.articles h2 a {
+  color : #454545;
+  font-size: 24px;
+}
+
+.articles {
+  padding: 10px;
+}
+
+.soquettesfantaisies img , .chevronne img {
+  width: 100%;
+}
+
+.articles iframe {
+  width: 100%;
+}
 
 @media (min-width: 760px) {
   /********************************************accueil************************************/
@@ -382,6 +417,7 @@ footer {
     background-image: url(../img/background/bg.png);
     height: auto;
     box-shadow: none;
+    position: relative;
 
   }
 
