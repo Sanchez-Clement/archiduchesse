@@ -327,6 +327,59 @@ footer {
   width: 100%;
 }
 
+/*********************************************************contact********************************/
+#coordonees h2 ,#formulaire h2{
+  text-align: center;
+  font-size: 25px;
+  border-bottom: 3px dashed #BABBB7;
+  padding: 15px;
+
+
+}
+
+#coordonees p {
+  padding: 10px;
+}
+
+#coordonees i {
+  margin-right: 10px;
+  font-size: 25px;
+}
+
+#coordonees, #formulaire {
+  background-image: url(../img/background/bg.png);
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#formulaire .btn {
+  width: 30%;
+  margin: auto;
+  margin-bottom: 30px;
+  background-color: #4A4A4C;
+}
+
+#formulaire .btn:hover {
+  color: #4A4A4C;
+  background-color: white;
+}
+
+#formulaire fielset {
+  padding-right: 10px;
+
+}
+
+
+
+.contact iframe {
+  margin-bottom: 30px;
+
+}
+
+
+
+
+
 @media (min-width: 760px) {
   /********************************************accueil************************************/
   /***********************main*************************/
@@ -640,4 +693,17 @@ aside article li a {
   width: 150px;
   font-size: 15px;
 }
+
+/******************************************contact**********************************/
+.contact #carte {
+margin: auto;
+
+}
+
+
+#coordonees {
+  overflow: hidden;
+
+}
+
 }

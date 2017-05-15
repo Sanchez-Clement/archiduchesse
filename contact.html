@@ -114,45 +114,52 @@
         </nav>
       </header>
 
-      <main class="contact">
-        <h1>Contactez-nous</h2>
-        <section class="coordonées">
+      <main class="contact container">
+        <h1>Contactez-nous</h1>
+        <div class="row justify-content-around">
+
+        <section class="col-12 col-lg-5 card" id="coordonees">
           <h2>Coordonnées</h2>
           <p><i class="fa fa-home" aria-hidden="true"></i>38, Rue michelet, <br>42 000 Saint etienne</p>
           <p><i class="fa fa-phone-square" aria-hidden="true"></i>04.27.78.54.86</p>
           <p><i class="fa fa-at" aria-hidden="true"></i>lebigboss@archiduchesse.com</p>
+          <iframe id="carte" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5599.439343178097!2d4.393232!3d45.435152!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f5aeadc75deb2f%3A0xca1da2132758d2c5!2s38+Rue+Michelet%2C+42000+Saint-%C3%89tienne%2C+France!5e0!3m2!1sen!2sfr!4v1494842367482" width="400" height="300" frameborder="0" style="border:0" allowfullscreen class="col-12"></iframe>
+
 
         </section>
-        <form class="formulaire" action="index.html" method="post">
-          <fieldset>
-            <label for="name">Nom</label>
-            <input type="text" id="name" placeholder="Nom">
+        <form class="col-12 col-lg-5 card" action="index.html" method="post" id="formulaire">
+          <h2>Votre message</h2>
+          <fieldset class="form-group row">
+            <label for="name" class="form-label col-4" >Nom :</label>
+            <input type="text" id="name" placeholder="Nom" class="col-7">
           </fieldset>
-          <fieldset>
-            <label for="prenom">Prénom</label>
-            <input type="text" placeholder="Prénom" id="prenom">
+          <fieldset class="form-group row">
+            <label for="prenom" class="form-label col-4">Prénom :</label>
+            <input type="text" placeholder="Prénom" id="prenom" class="col-7">
           </fieldset>
-          <fieldset>
-            <label for="mail">Mail</label>
-            <input type="text" placeholder="Mail" id="mail">
+          <fieldset class="form-group row">
+            <label for="mail" class="form-label col-4">Mail :</label>
+            <input type="text" placeholder="Mail" id="mail" class="col-7">
           </fieldset>
-          <fieldset><label for="sujet">Sujet :</label>
-            <select class="" name="sujet" id="sujet">
+          <fieldset class="form-group row">
+            <label for="sujet" class="form-label col-4">Sujet :</label>
+            <select  name="sujet" id="sujet" class="col-7">
               <option value="">SAV</option>
               <option value="">Devis</option>
               <option value="">Autre sujet</option>
 
             </select>
           </fieldset>
-          <fieldset>
-            <label for="message">Votre message</label>
-            <textarea name="message" rows="8" cols="80" id="message"></textarea>
+          <fieldset class="form-group row">
+            <label for="message" class="form-label col-4">Votre message :</label>
+            <textarea name="message" rows="6" cols="14" id="message" class="col-7"></textarea>
           </fieldset>
-          <input type="submit" name="submit" value="Envoyer">
+          <input type="submit"  name="submit" value="Envoyer" class="btn btn-primary">
 
         </form>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2799.818652341919!2d4.3876154507187906!3d45.43315687899805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f5aeadc75deb2f%3A0xca1da2132758d2c5!2s38+Rue+Michelet%2C+42000+Saint-%C3%89tienne!5e0!3m2!1sfr!2sfr!4v1494836913074" width="600" height="450"  style="border:0" allowfullscreen></iframe>
 
+
+      </div>
       </main>
 
 
